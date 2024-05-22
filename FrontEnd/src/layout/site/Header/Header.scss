@@ -1,0 +1,62 @@
+nav{
+    width: 100%;
+    padding: 20px 0px;
+}
+nav .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.navTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.navIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+}
+.navIcons i{
+    padding: 10px;
+    background: #000;
+    color: white;
+    border-radius: 50%;
+}
+.navContact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.navContact p{
+    color: black;
+}
+.navContact p i{
+    color: orangered;
+}
+.navBottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.navA{
+    font-size: 40px;
+    font-weight: bold;
+}
+.navA span{
+    color: orangered;
+}
+.navBottom ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}

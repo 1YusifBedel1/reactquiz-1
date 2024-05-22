@@ -1,0 +1,31 @@
+.section2{
+    padding: 100px 0px;
+}
+.section2 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.section2 span{
+    color: gray;
+    font-size: 13px;
+}
+.section2 h2{
+    font-size: 40px ;
+    font-weight: bold;
+}
+.section2 p{
+    font-size: 16px;
+    color: gray;
+    width: 500px;
+    text-align: center;
+}
+.s2Bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}

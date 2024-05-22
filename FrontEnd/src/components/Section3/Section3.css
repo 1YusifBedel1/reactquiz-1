@@ -1,0 +1,56 @@
+.section3{
+    padding: 100px 0px;
+}
+.section3 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+flex-direction: column;
+gap: 30px;
+}
+.section3 .container span{
+    color: gray;
+    font-size: 13px;
+}
+.section3 .container h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.s3Cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.s3Card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;  
+}
+.s3Card img{
+    width: 300px;
+}
+.s3Card h4{
+    font-size: 18px;
+}
+.s3Card span{
+    color: gray;
+    font-size: 12px;
+}
+.s3Card p{
+    font-size: 16px;
+    text-align: center;
+}
+.cardIcons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+@media only screen and (max-width: 945px) {
+    .s3Cards {
+      flex-direction: column;
+    }
+  }
